@@ -6,11 +6,21 @@ This Microsoft Power Automate Flow is designed to pull project, labor, and equip
 ## 💡 Objective
 To automate the collection of critical financial and operational data from the Operations system and present it through detailed, filterable dashboards for use by project controls, accounting, and executive teams.
 
+### Flow
+![Screenshot](./assets/2.jpg)
+
+### Dashboard
+![Screenshot](./assets/4.jpg)
+
+---
+
 ## ✨ Key Features
 - Scheduled flow to call REST API endpoints
 - JSON transformation and normalization
 - Inserts into Azure SQL Server for reporting
 - Power BI dashboards for force account rate analysis and cost tracking
+
+---
 
 ## 📊 Power BI Dashboards
 This system powers over **9 dashboards**, including:
@@ -49,6 +59,8 @@ This system powers over **9 dashboards**, including:
 9. **KPI & Metric Dashboards**
    - Variance, utilization efficiency, top cost drivers, etc.
 
+---
+
 ## ⚙️ Tech Stack
 
 | Category            | Technologies |
@@ -59,6 +71,8 @@ This system powers over **9 dashboards**, including:
 | **Visualization**   | ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black&style=for-the-badge) |
 | **Hosting**         | ![Microsoft Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white&style=for-the-badge) |
 
+---
+
 ## 🔄 Flow Logic
 1. **Trigger:** Recurring schedule (e.g., every 4 hours)
 2. **API Calls:** Retrieve data from Operations system
@@ -66,16 +80,22 @@ This system powers over **9 dashboards**, including:
 4. **Store:** Insert into Azure SQL with staging and final tables
 5. **Log:** Track each flow run, including records inserted and failures
 
+---
+
 ## 📈 Business Impact
 - ⏱️ Saved hours of manual reconciliation work for finance teams
 - 📊 Enabled real-time access to performance dashboards
 - 🧩 Facilitated tighter alignment between Operations and Accounting
 - 🔍 Identified costly trends earlier with up-to-date data
 
+---
+
 ## 🤝 Collaboration
 - Worked in partnership with the **Project Controls Manager** and **Finance Team**
 - Data models designed for **Power BI optimization**
 - Continuous improvement from feedback loops and new requirements
+
+---
 
 ## 🔗 Related Projects
 - `Quattrofy` – Main ERP Web Application

@@ -7,10 +7,10 @@ This Microsoft Power Automate Flow is designed to pull project, labor, and equip
 To automate the collection of critical financial and operational data from the Operations system and present it through detailed, filterable dashboards for use by project controls, accounting, and executive teams.
 
 ### Flow
-![Screenshot](./assets/2.jpg)
+![Screenshot](./assets/1.jpg)
 
 ### Dashboard
-![Screenshot](./assets/4.jpg)
+![Screenshot](./assets/2.jpg)
 
 ---
 
